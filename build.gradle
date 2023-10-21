@@ -1,3 +1,17 @@
+//buildscript {
+//    repositories {
+//        google()
+//        mavenCentral() // NEW
+//        maven {
+//            url = uri("https://plugins.gradle.org/m2/")
+//        }
+//    }
+//    dependencies {
+//        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.13.0' // NEW
+//        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.4.10.2' // NEW
+//    }
+//}
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
 id 'com.android.application' version '8.1.1' apply false

@@ -6,13 +6,17 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+//        maven {
+//            url "https://s01.oss.sonatype.org/content/repositories/releases/"
+//        }
     }
 }
 
 rootProject.name = "World Time API Demo"
 include ':app'
+//include ':world-time-api'
 include ':world-time-api'
