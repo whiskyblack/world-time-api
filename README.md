@@ -1,3 +1,7 @@
+Demo implement:
+- Repository: mavenCentral()
+- implementation 'vn.alphalabs:worldtimeapi:1.0.0'
+
 **Demo Publish Android Library To Maven Central Step By Step**
 
 1. Create account or login Sonatype Jira
@@ -40,4 +44,4 @@
    - This creates your key in ~/.gnupg/openpgp-revocs.d/ with .rev format. Since we need our key in .gpg format, here’s how to create that:
      + In your Terminal, type gpg --export-secret-keys -o secring.gpg .
      + When prompted with the passphrase, type the passphrase you set for the key you created.
-   This should create a file named secring.gpg in your root directory.
+   - This should create a file named secring.gpg in your root directory.
